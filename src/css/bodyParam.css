@@ -1,0 +1,19 @@
+#outer {
+    min-height: 10px;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid rgb(194, 188, 188);
+}
+
+.inner {
+    padding: 15px;
+    min-height: 90px;
+    width: 100%;
+    background: rgb(253, 253, 253);
+    border-bottom: 1px solid rgb(238, 235, 235);
+}
+
+.inner:nth-child(odd) {
+    background: rgb(245, 244, 244);
+}

@@ -1,0 +1,135 @@
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ * @format
+ */
+
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+}
+
+table {
+  width: 100% !important;
+  display: inline-table !important;
+}
+
+.get {
+  background-color: #2c8110;
+  border-radius: 5px;
+  color: #fff;
+  padding: 1px 5px;
+  cursor: pointer;
+}
+
+.delete {
+  background-color: #674ead;
+  border-radius: 5px;
+  color: #fff;
+  padding: 1px 5px;
+  cursor: pointer;
+}
+
+.post {
+  background-color: #dc3545;
+  border-radius: 5px;
+  color: #fff;
+  padding: 1px 5px;
+  cursor: pointer;
+}
+
+.patch {
+  background-color: #0c0c0c;
+  border-radius: 5px;
+  color: #fff;
+  padding: 1px 5px;
+  cursor: pointer;
+}
+
+
+.hero--primary {
+  /* background-image: url(/img/bg-xettle.svg); */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 1;
+  background-color: transparent;
+  color: #4d8e2d;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.button--secondary {
+  background-color: #4d8e2d;
+  color: #fff !important;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.button--secondary:hover {
+  background-color: #397a1b;
+}
+
+p {
+  text-align: justify;
+}
+
+.hero__subtitle {
+  text-align: center;
+}
+
+details {
+  all: unset !important;  
+}
+
+.collapsibleContent_node_modules-\@docusaurus-theme-common-lib-components-Details-styles-module{
+  border-top: none !important;
+}
+
+details a {
+  color: #2e8555 !important;
+  text-decoration: none !important;
+}
+
+details a {
+  color: #2e8555 !important;
+  text-decoration: none;
+}
+summary {
+  font-weight: bold !important;
+}
+
+details a:hover {
+  color: #2e8555;
+  text-decoration: none;
+  border-bottom: 2px solid #2E8555;
+}
+
+
+
