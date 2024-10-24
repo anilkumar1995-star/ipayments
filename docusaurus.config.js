@@ -13,7 +13,7 @@
 const config = {
   title: 'IPAYMENT',
   tagline: ' API Docs by IPAYMENT',
-  url: 'https://ipayment.io',
+  url: 'https://docs.ipayments.in',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -21,8 +21,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'ipayment', // Usually your GitHub org/user name.
-  projectName: 'apidocs', // Usually your repo name.
+  organizationName: 'anilkumar1995-star', // Usually your GitHub org/user name.
+  projectName: 'ipayments', // Usually your repo name.
 
   presets: [
     [
