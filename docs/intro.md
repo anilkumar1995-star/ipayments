@@ -1,7 +1,7 @@
 ---
 id: intro
 title: IPAYMENT API Docs
-description: IPAYMENT API Docs - Smart Payout, Smart Collect, UPI Stack, Validation Suite
+description: IPAYMENT API Docs - Smart Payout, Smart Collect, UPI Stack, Validation Suite, DMT
 slug: /v1/
 sidebar_position: 1
 ---
