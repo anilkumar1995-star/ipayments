@@ -7,7 +7,7 @@ sidebar_position: 1
 ---
 
 Introducing Developer Friendly API
-Automated Collection & Payment Solution for Your Business!
+Automated Collections & Payment Solution for Your Business!
 
 ## Getting Started
 
