@@ -44,7 +44,7 @@ import data from "@site/src/static/payout/OrderPayoutCode"
             'amount' => "1",
             'purpose' => "salary_disbursement",
             'mode' => "IMPS",
-            'narration' => "narration",
+            'narration' => "narration" // or "retailer_id|retailer_name|retailer_email|retailer_mobile|retailer_service",
             'remark' => "remark",
             'clientRefId' => "CRF37XXXX47484"
         ]

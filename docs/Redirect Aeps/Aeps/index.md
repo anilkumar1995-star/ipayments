@@ -1,16 +1,16 @@
 ---
 id: intro-ab
-title: Redirect Aeps
+title: Aeps (Redirection)
 description: IPAYMENT API Docs - Smart Payout, Smart Collect, UPI Stack, Validation Suite, Aeps, Dmt
 slug: /v1/service/aeps/generate/url
 sidebar_position: 10
 ---
 
-<p>Aeps Generate Url. </p>
+<p>Aeps (Redirection). </p>
 
 ## Aeps Generate APIs
 
-<p>Plesae not first step complete digi kyc. then generate url</p>
+<p>Plesae do first complete digi kyc. then generate url</p>
 <details open>
 <summary> Aeps Generate</summary>
 
@@ -21,11 +21,11 @@ sidebar_position: 10
 </details>
 
 
-Balance Enquiry
+Aeps Redirection
 
 :::tip Postman Collection
 
-<a href="https://www.google.com" target="_blank">Redirect AEPS</a>
+<a href="https://www.google.com" target="_blank">Aeps Redirect</a>
 
 :::
 
