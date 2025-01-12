@@ -21,7 +21,7 @@ sidebar_position: 15
 </details>
 
 
-Aeps Redirection
+Paycc
 
 :::tip Postman Collection
 

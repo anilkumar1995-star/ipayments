@@ -1,22 +1,22 @@
 ---
 id: intro-ab
-title: Paycc Bank List 
+title: Paycc Add Bank 
 description: IPAYMENT API Docs - Smart Payout, Smart Collect, UPI Stack, Validation Suite, Aeps, Dmt
-slug: /v1/service/paycc/banks
-sidebar_position: 16
+slug: /v1/service/paycc/add/bank
+sidebar_position: 20
 ---
 
-<p>Paycc Bank . </p>
+<p>Paycc Add Bank . </p>
 
 ## Paycc Customer kyc APIs
 
 
 <details open>
-<summary> Paycc Bank  </summary>
+<summary> Paycc Add Bank  </summary>
 
 | API                                                                           | Description                                     |
 | :---------------------------------------------------------------------------- | :---------------------------------------------- |
-| <a href="/docs/v1/service/paycc/banks">**CPaycc Bank**</a>| Use this API to Paycc Bank 
+| <a href="/docs/v1/service/paycc/add/bank">**Paycc Add Bank**</a>| Use this API to Paycc Add Bank 
 
 </details>
 
@@ -25,7 +25,7 @@ Paycc
 
 :::tip Postman Collection
 
-<a href="https://www.google.com" target="_blank">Paycc Bank</a>
+<a href="https://www.google.com" target="_blank">Paycc Add Bank</a>
 
 :::
 
@@ -33,7 +33,7 @@ Paycc
 
 import Highlight from '@site/src/components/Highlights';
 
-<Highlight className="post">GET</Highlight> : <strong>/v1/service/paycc/banks</strong>
+<Highlight className="post">POST</Highlight> : <strong>/v1/service/paycc/add/bank</strong>
 
 ### Headers
 
@@ -46,19 +46,25 @@ import header from "@site/src/common/HeaderCode"
 
 import '@site/src/css/bodyParam.css'
 import BodyParam from "@site/src/pages/BodyParam"
-import data from "@site/src/static/paycc-customer/customer-json/paycc-banks"
+import data from "@site/src/static/paycc-customer/customer-json/paycc-add-bank"
 
 <BodyParam data={data}/>
 
 ### Request
 
 ```c title="Example Request"
-    curl --location '/v1/service/paycc/banks' \
+    curl --location '/v1/service/paycc/add/bank' \
         --header 'Content-Type: application/json' \
         --header 'Authorization: Basic Og==' \
         --data '{
-                    "merchantCode": "MID6937XXXXXX"
-                }'
+                "customerId": "CUST28XXXXX",
+                "accountNo": "084836XXXXX",
+                "ifsc": "KKBK00XXXXX",
+                "bankName": "XXXX",
+                "accountHolderName": "AnXXXXXr",
+                "merchantCode": "MID6XXX",
+                "apiType" :"b2b"
+            }'
 ```
 
 ### Response Samples
@@ -78,24 +84,13 @@ import TabItem from '@theme/TabItem';
  ```json
   {
     "code": "0x0200",
-    "message": "Bank list found",
+    "message": "Bank Added Successfully.",
     "status": "SUCCESS",
-    "data": [
-        {
-            "bankId": "BNK111XXXXXX",
-            "accountNo": "24270100XXXXXX",
-            "ifsc": "BARB0HXXXXX",
-            "accountHolderName": "ANILXXXXXX",
-            "isActive": "1"
-        },
-        {
-            "bankId": "BNK5728XXXXX",
-            "accountNo": "2427010XXXXX",
-            "ifsc": "BARB0XXXXX",
-            "accountHolderName": "ANILXXXXX",
-            "isActive": "1"
-        }
-    ]
+    "data": {
+        "bankId": "bnk5728XXXXXX",
+        "accHolderName": "ANILXXXX",
+        "bankIsValid": true
+    }
 }
  ```
 
@@ -105,10 +100,13 @@ import TabItem from '@theme/TabItem';
 
 ```json
     {
-        "code": "0x0202",
-        "status": "FAILURE",
-        "message": "No banks found"
+    "code": "0x0202",
+    "status": "FAILURE",
+    "message": "This bank account already exists.",
+    "data": {
+        "bankId": "BNK11111XXXXXX"
     }
+}
 ```
 
 </TabItem>

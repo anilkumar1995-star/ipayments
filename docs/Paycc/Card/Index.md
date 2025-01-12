@@ -1,31 +1,31 @@
 ---
 id: intro-ab
-title: Paycc Bank List 
+title: Paycc Cards List 
 description: IPAYMENT API Docs - Smart Payout, Smart Collect, UPI Stack, Validation Suite, Aeps, Dmt
-slug: /v1/service/paycc/banks
+slug: /v1/service/paycc/creditcards
 sidebar_position: 16
 ---
 
-<p>Paycc Bank . </p>
+<p>Paycc Cards . </p>
 
-## Paycc Customer kyc APIs
+## Paycc Category APIs
 
 
 <details open>
-<summary> Paycc Bank  </summary>
+<summary> Paycc Cards  </summary>
 
 | API                                                                           | Description                                     |
 | :---------------------------------------------------------------------------- | :---------------------------------------------- |
-| <a href="/docs/v1/service/paycc/banks">**CPaycc Bank**</a>| Use this API to Paycc Bank 
+| <a href="/docs/v1/service/paycc/creditcards">**Paycc Card**</a>| Use this API to Paycc Card 
 
 </details>
 
 
-Paycc
+Paycc Card
 
 :::tip Postman Collection
 
-<a href="https://www.google.com" target="_blank">Paycc Bank</a>
+<a href="https://www.google.com" target="_blank">Paycc Card</a>
 
 :::
 
@@ -33,7 +33,7 @@ Paycc
 
 import Highlight from '@site/src/components/Highlights';
 
-<Highlight className="post">GET</Highlight> : <strong>/v1/service/paycc/banks</strong>
+<Highlight className="post">GET</Highlight> : <strong>/v1/service/paycc/creditcards</strong>
 
 ### Headers
 
@@ -53,12 +53,14 @@ import data from "@site/src/static/paycc-customer/customer-json/paycc-banks"
 ### Request
 
 ```c title="Example Request"
-    curl --location '/v1/service/paycc/banks' \
+    curl --location '/v1/service/paycc/creditcards' \
         --header 'Content-Type: application/json' \
         --header 'Authorization: Basic Og==' \
         --data '{
-                    "merchantCode": "MID6937XXXXXX"
-                }'
+                "merchantCode"  :  "MID6937XXXXXX",
+                "customerId" : "JSIWI59XXXXX",
+                "cardId" : "CRD34988XXXX"
+            }'
 ```
 
 ### Response Samples
@@ -76,28 +78,28 @@ import TabItem from '@theme/TabItem';
 <TabItem value="found">
 
  ```json
-  {
+ {
     "code": "0x0200",
-    "message": "Bank list found",
+    "message": "Card list found",
     "status": "SUCCESS",
     "data": [
         {
-            "bankId": "BNK111XXXXXX",
-            "accountNo": "24270100XXXXXX",
-            "ifsc": "BARB0HXXXXX",
-            "accountHolderName": "ANILXXXXXX",
-            "isActive": "1"
-        },
-        {
-            "bankId": "BNK5728XXXXX",
-            "accountNo": "2427010XXXXX",
-            "ifsc": "BARB0XXXXX",
-            "accountHolderName": "ANILXXXXX",
-            "isActive": "1"
+            "customerId": "JSIWI59XXXXXX",
+            "cardId": "CRD349XXXXX",
+            "accountNo": "53346700XXXX",
+            "expireDate": "09/28",
+            "cardName": "FlipXXXXX",
+            "isActive": "1",
+            "isVerify": "0",
+            "last4": null,
+            "network": null,
+            "type": null,
+            "issuer": null,
+            "subType": null
         }
     ]
 }
- ```
+```
 
 </TabItem>
 
@@ -107,7 +109,7 @@ import TabItem from '@theme/TabItem';
     {
         "code": "0x0202",
         "status": "FAILURE",
-        "message": "No banks found"
+        "message": "No card found"
     }
 ```
 

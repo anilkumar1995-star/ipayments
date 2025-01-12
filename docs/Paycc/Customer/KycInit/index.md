@@ -21,11 +21,11 @@ sidebar_position: 14
 </details>
 
 
-Aeps Redirection
+Paycc
 
 :::tip Postman Collection
 
-<a href="https://www.google.com" target="_blank">Aeps Redirect</a>
+<a href="https://www.google.com" target="_blank">Paycc Customer Kyc</a>
 
 :::
 

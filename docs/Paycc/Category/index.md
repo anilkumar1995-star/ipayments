@@ -1,31 +1,31 @@
 ---
 id: intro-ab
-title: Paycc Add Bank 
+title: Paycc Category List 
 description: IPAYMENT API Docs - Smart Payout, Smart Collect, UPI Stack, Validation Suite, Aeps, Dmt
-slug: /v1/service/paycc/add/bank
-sidebar_position: 20
+slug: /v1/service/paycc/category
+sidebar_position: 16
 ---
 
-<p>Paycc Add Bank . </p>
+<p>Paycc Category . </p>
 
-## Paycc Customer kyc APIs
+## Paycc Category APIs
 
 
 <details open>
-<summary> Paycc Add Bank  </summary>
+<summary> Paycc Category  </summary>
 
 | API                                                                           | Description                                     |
 | :---------------------------------------------------------------------------- | :---------------------------------------------- |
-| <a href="/docs/v1/service/paycc/add/bank">**Paycc Add Bank**</a>| Use this API to Paycc Add Bank 
+| <a href="/docs/v1/service/paycc/category">**Paycc Category**</a>| Use this API to Paycc Category 
 
 </details>
 
 
-Aeps Redirection
+Paycc Category
 
 :::tip Postman Collection
 
-<a href="https://www.google.com" target="_blank">Paycc Add Bank</a>
+<a href="https://www.google.com" target="_blank">Paycc Category</a>
 
 :::
 
@@ -33,7 +33,7 @@ Aeps Redirection
 
 import Highlight from '@site/src/components/Highlights';
 
-<Highlight className="post">POST</Highlight> : <strong>/v1/service/paycc/add/bank</strong>
+<Highlight className="post">GET</Highlight> : <strong>/v1/service/paycc/category</strong>
 
 ### Headers
 
@@ -46,25 +46,19 @@ import header from "@site/src/common/HeaderCode"
 
 import '@site/src/css/bodyParam.css'
 import BodyParam from "@site/src/pages/BodyParam"
-import data from "@site/src/static/paycc-customer/customer-json/paycc-add-bank"
+import data from "@site/src/static/paycc-customer/customer-json/paycc-banks"
 
 <BodyParam data={data}/>
 
 ### Request
 
 ```c title="Example Request"
-    curl --location '/v1/service/paycc/add/bank' \
+    curl --location '/v1/service/paycc/category' \
         --header 'Content-Type: application/json' \
         --header 'Authorization: Basic Og==' \
         --data '{
-                "customerId": "CUST28XXXXX",
-                "accountNo": "084836XXXXX",
-                "ifsc": "KKBK00XXXXX",
-                "bankName": "XXXX",
-                "accountHolderName": "AnXXXXXr",
-                "merchantCode": "MID6XXX",
-                "apiType" :"b2b"
-            }'
+                    "merchantCode": "MID6937XXXXXX"
+                }'
 ```
 
 ### Response Samples
@@ -84,28 +78,34 @@ import TabItem from '@theme/TabItem';
  ```json
   {
     "code": "0x0200",
-    "message": "Bank Added Successfully.",
+    "message": "Catogory list found",
     "status": "SUCCESS",
-    "data": {
-        "bankId": "bnk5728XXXXXX",
-        "accHolderName": "ANILXXXX",
-        "bankIsValid": true
-    }
-}
- ```
-
-</TabItem>
-
-<TabItem value="failed">
-
-```json
-    {
-    "code": "0x0202",
-    "status": "FAILURE",
-    "message": "This bank account already exists.",
-    "data": {
-        "bankId": "BNK11111XXXXXX"
-    }
+    "data": [
+        {
+            "catetoryId": 3,
+            "name": "Bill Payment",
+            "isActive": "1",
+            "subCategory": []
+        },
+        {
+            "catetoryId": 2,
+            "name": "Business Payment",
+            "isActive": "1",
+            "subCategory": []
+        },
+        {
+            "catetoryId": 1,
+            "name": "Rent",
+            "isActive": "1",
+            "subCategory": [
+                {
+                    "catetoryId": 4,
+                    "name": "Test",
+                    "isActive": "1"
+                }
+            ]
+        }
+    ]
 }
 ```
 
