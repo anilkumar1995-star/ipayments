@@ -104,6 +104,15 @@ import TabItem from '@theme/TabItem';
 </TabItem>
 </Tabs>
 
+### HTML
+
+```c title="Example HTML"
+    <form id="retForm" action="{{url}}" method="POST">
+        <input type="hidden" name="encdata" value="{{encdata}}">
+        <button type="submit">Submit</button>
+    </form>
+```
+
 ### Response Code
 
 import ResponseCode from "@site/src/pages/ResponseCode"
