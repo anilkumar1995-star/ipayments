@@ -16,6 +16,6 @@ sidebar_position: 10
 
 | API                                                                           | Description                                     |
 | :---------------------------------------------------------------------------- | :---------------------------------------------- |
-| <a href="/docs/v1/service/aeps/generate/url">**Status Check**</a>| Use this API to generate url
+| <a href="/docs/v1/service/aeps/generate/url">**Generate Url**</a>| Use this API to generate url
 
 </details>
