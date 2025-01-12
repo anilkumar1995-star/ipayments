@@ -10,6 +10,7 @@ sidebar_position: 10
 
 ## Aeps Generate APIs
 
+<p>Plesae not first step complete digi kyc. then generate url</p>
 <details open>
 <summary> Aeps Generate</summary>
 
@@ -18,5 +19,3 @@ sidebar_position: 10
 | <a href="/docs/v1/service/aeps/generate/url">**Status Check**</a>| Use this API to generate url
 
 </details>
-
-
