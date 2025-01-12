@@ -46,7 +46,7 @@ import header from "@site/src/common/HeaderCode"
 
 import '@site/src/css/bodyParam.css'
 import BodyParam from "@site/src/pages/BodyParam"
-
+import data from "@site/src/static/paycc-customer/customer-json/paycc-customer-kyc-status"
 
 <BodyParam data={data}/>
 
