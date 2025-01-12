@@ -3,7 +3,7 @@ id: intro-ab
 title: Paycc Customer 
 description: IPAYMENT API Docs - Smart Payout, Smart Collect, UPI Stack, Validation Suite, Aeps, Dmt
 slug: /v1/service/paycc/init/kyc
-sidebar_position: 10
+sidebar_position: 14
 ---
 
 <p>Paycc Customer Kyc. </p>
