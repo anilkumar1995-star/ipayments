@@ -8,7 +8,7 @@ sidebar_position: 16
 
 <p>Paycc Cards . </p>
 
-## Paycc Category APIs
+## Paycc APIs
 
 
 <details open>

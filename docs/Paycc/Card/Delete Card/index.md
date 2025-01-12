@@ -7,7 +7,7 @@ slug: /v1/service/paycc/delete/creditcard
 
 <p>Paycc Delete Card . </p>
 
-## Paycc Delete Card APIs
+## Paycc APIs
 
 
 <details open>

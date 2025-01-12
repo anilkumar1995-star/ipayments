@@ -8,7 +8,7 @@ sidebar_position: 16
 
 <p>Paycc Customer Check. </p>
 
-## Paycc Customer kyc APIs
+## Paycc APIs
 
 
 <details open>
