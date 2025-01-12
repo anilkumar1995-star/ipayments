@@ -8,7 +8,7 @@ const data = [
     },{
         "Parameter": "redirectUrl",
         "DataType": "String",
-        "MaxLength": 20,
+        "MaxLength": 200,
         "Required": "Required",
         "value":"redirect url"
     },
