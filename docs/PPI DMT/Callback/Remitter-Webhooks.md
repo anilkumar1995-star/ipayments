@@ -2,7 +2,7 @@
 id: id-webhooks
 title: Remitter Webhooks
 description: Remitter Webhooks
-slug: /v1/service/dmt/webhooks
+slug: /v1/service/dmt/remitter/webhooks
 sidebar_position: 2
 ---
 

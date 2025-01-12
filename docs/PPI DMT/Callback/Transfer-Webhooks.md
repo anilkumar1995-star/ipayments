@@ -2,7 +2,7 @@
 id: id-webhooks
 title: DMT Transfer Webhooks
 description: DMT Transfer Webhooks
-slug: /v1/service/dmt/webhooks
+slug: /v1/service/dmt/transfer/webhooks
 sidebar_position: 2
 ---
 

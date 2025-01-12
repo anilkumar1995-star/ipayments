@@ -2,7 +2,7 @@
 id: id-webhooks
 title: Beneficiary Webhooks
 description: Beneficiary Webhooks
-slug: /v1/service/dmt/webhooks
+slug: /v1/service/dmt/beneficiary/webhooks
 sidebar_position: 2
 ---
 

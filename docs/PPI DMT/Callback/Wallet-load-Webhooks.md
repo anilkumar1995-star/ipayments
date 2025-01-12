@@ -2,7 +2,7 @@
 id: id-webhooks
 title: Wallet Load Webhooks
 description: Wallet Load Webhooks
-slug: /v1/service/dmt/webhooks
+slug: /v1/service/dmt/wallet/webhooks
 sidebar_position: 2
 ---
 
