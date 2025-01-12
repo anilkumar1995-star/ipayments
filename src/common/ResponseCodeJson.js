@@ -33,6 +33,15 @@ const response = [
         "StatusCode": "0x0206",
         "Status": "PENDING",
         "Message": "TRANSACTION PENDING"
+    }, 
+     {
+        "StatusCode": "0x0207",
+        "Status": "REVERSED",
+        "Message": "TRANSACTION REVERSED"
+    },{
+        "StatusCode": "0x0209",
+        "Status": "REDIRECT",
+        "Message": "REDIRECT URL"
     }
 ]
 export default response;
