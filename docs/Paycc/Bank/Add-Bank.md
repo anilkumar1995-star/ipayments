@@ -3,7 +3,7 @@ id: intro-ab
 title: Paycc Add Bank 
 description: IPAYMENT API Docs - Smart Payout, Smart Collect, UPI Stack, Validation Suite, Aeps, Dmt
 slug: /v1/service/paycc/add/bank
-sidebar_position: 16
+sidebar_position: 20
 ---
 
 <p>Paycc Add Bank . </p>
