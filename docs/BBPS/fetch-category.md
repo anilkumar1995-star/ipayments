@@ -27,13 +27,6 @@ import header from "@site/src/common/HeaderCode"
 
 <HeaderMarkdown data={header}/>
 
-## Body Params
-
-import '@site/src/css/bodyParam.css'
-import BodyParam from "@site/src/pages/BodyParam"
-import data from "@site/src/static/bbps/FetchCategoryCode"
-
-<BodyParam data={data}/>
 
 ### Request
 
