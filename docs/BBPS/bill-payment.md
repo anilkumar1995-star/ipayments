@@ -42,7 +42,6 @@ import data from "@site/src/static/bbps/BillPaymentCode"
         --header 'Content-Type: application/json' \
         --header 'Authorization: Basic Og==' \
         --data '{
-      
             "clientRefId" : "CRF378XXXXX7854",
             "amount" : "1",
             "billId" : "a9fd8d05-XXXX-478a-XXXX-0b05ad0cc397",

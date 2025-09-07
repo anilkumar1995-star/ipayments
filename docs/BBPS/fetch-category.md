@@ -43,7 +43,7 @@ import data from "@site/src/static/bbps/FetchCategoryCode"
         --header 'Authorization: Basic Og==' \
         --data '{
            
-        }'
+            }'
 ```
 
 ### Response Samples
