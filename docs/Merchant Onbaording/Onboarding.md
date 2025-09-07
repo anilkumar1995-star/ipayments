@@ -18,7 +18,7 @@ Details Merchant
 
 import Highlight from '@site/src/components/Highlights';
 
-<Highlight className="get">GET</Highlight> : <strong>/v1/service/aeps/kyc/</strong>
+<Highlight className="get">POST</Highlight> : <strong>/v1/service/aeps/kyc/</strong>
 
 ### Headers
 

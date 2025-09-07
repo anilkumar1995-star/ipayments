@@ -1,7 +1,7 @@
 ---
 id: id-fetch-quickbill-bill-payment
-title: Bill Payment
-description:  Bill Payment
+title: Quickbill Bill Payment
+description:  Quickbill Bill Payment
 slug: /v1/service/bbps/quickbill/bill/payment
 sidebar_position: 3
 ---
