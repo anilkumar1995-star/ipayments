@@ -15,7 +15,7 @@ const data = [
     },
      {
         "Parameter": "customerEmail",
-        "DataType": "email",
+        "DataType": "String",
         "MaxLength": 50,
         "Required": "Required",
         "value":"Customer email Id"

@@ -38,7 +38,7 @@ import data from "@site/src/static/bbps/FetchBillIdCode"
 ### Request
 
 ```c title="Example Request"
-    curl --location --request GET '/v1/service/bbps/quickbill/fetch/bill' \
+    curl --location --request POST '/v1/service/bbps/quickbill/fetch/bill' \
         --header 'Content-Type: application/json' \
         --header 'Authorization: Basic Og==' \
         --data '{

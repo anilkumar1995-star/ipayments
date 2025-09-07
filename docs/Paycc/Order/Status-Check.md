@@ -2,7 +2,7 @@
 id: intro-ab
 title: Paycc Order Status Check 
 description: IPAYMENT API Docs - Smart Payout, Smart Collect, UPI Stack, Validation Suite, Aeps, Dmt
-slug: /v1/service/paycc/add/verify/card
+slug: /v1/service/paycc/order/CRD8498498XXXX
 ---
 
 <p>Paycc Order Status Check . </p>
@@ -15,7 +15,7 @@ slug: /v1/service/paycc/add/verify/card
 
 | API                                                                           | Description                                     |
 | :---------------------------------------------------------------------------- | :---------------------------------------------- |
-| <a href="/docs/v1/service/paycc/order/CRD84984XXXXXXX">**Paycc Order Status Check**</a>| Use this API to Paycc Order Status Check 
+| <a href="/docs/v1/service/paycc/order/CRD8498498XXXX">**Paycc Order Status Check**</a>| Use this API to Paycc Order Status Check 
 
 </details>
 
@@ -52,7 +52,7 @@ import data from "@site/src/static/paycc-customer/customer-json/paycc-order-stat
 ### Request
 
 ```c title="Example Request"
-    curl --location '/v1/service/paycc/order/CRD84984XXXXXXX' \
+    curl --location '/v1/service/paycc/order/CRD8498498XXXX' \
         --header 'Content-Type: application/json' \
         --header 'Authorization: Basic Og==' \
         --data '{
@@ -79,7 +79,7 @@ import TabItem from '@theme/TabItem';
     "message": "Record found successful",
     "status": "SUCCESS",
     "data": {
-        "clientRefId": "CRD849XXXXXXXX",
+        "clientRefId": "CRD8498498XXXX",
         "paymentId": "pay_Oro6XXXXXXX",
         "merchantCode": "MID318XXXXXX",
         "customerId": "CUST2XXXXXX",
