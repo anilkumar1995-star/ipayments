@@ -1,12 +1,12 @@
 ---
-id: id-fetch-quickbill-by-billerid
-title: Fetch Biller by BillerId
-description: Fetch Biller by BillerId
-slug: /v1/service/bbps/quickbill/fetch/biller/fetchByBillerId
+id: id-fetch-quickbill-fetch-bill
+title: Fetch Bill
+description: Fetch Bill
+slug: /v1/service/bbps/quickbill/fetch/bill
 sidebar_position: 1
 ---
 
-Fetch Biller by BillerId
+Fetch Bill
 
 :::tip Postman Collection
 
@@ -18,7 +18,7 @@ Fetch Biller by BillerId
 
 import Highlight from '@site/src/components/Highlights';
 
-<Highlight className="get">GET</Highlight> : <strong>/v1/service/bbps/quickbill/fetch/biller/fetchByBillerId</strong>
+<Highlight className="get">GET</Highlight> : <strong>/v1/service/bbps/quickbill/fetch/bill</strong>
 
 ### Headers
 
@@ -31,19 +31,35 @@ import header from "@site/src/common/HeaderCode"
 
 import '@site/src/css/bodyParam.css'
 import BodyParam from "@site/src/pages/BodyParam"
-import data from "@site/src/static/bbps/FetchByBillerIdCode"
+import data from "@site/src/static/bbps/FetchBillIdCode"
 
 <BodyParam data={data}/>
 
 ### Request
 
 ```c title="Example Request"
-    curl --location --request GET '/v1/service/bbps/quickbill/fetch/biller/fetchByBillerId' \
+    curl --location --request GET '/v1/service/bbps/quickbill/fetch/bill' \
         --header 'Content-Type: application/json' \
         --header 'Authorization: Basic Og==' \
         --data '{
-            "billerId" : "UPPC00000UTPAH"
-        }'
+        "billerId": "UPPC00000UTPAH",
+        "customerMobileNo": "XXXXX7986",
+        "customerEmail": "kumaxxxxx@gmail.com",
+        "customerAadhaar": "",
+        "customerPan": "",
+        "customerParamsRequest": {
+            "tags": [
+                {
+                    "name": "Consumer Number",
+                    "value": "99999999"
+                },
+                {
+                    "name": "District-Discom",
+                    "value": "Ayodhya-MVVNL"
+                }
+            ]
+        }
+    }'
 ```
 
 ### Response Samples
