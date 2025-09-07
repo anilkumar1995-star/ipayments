@@ -42,13 +42,15 @@ import data from "@site/src/static/bbps/FetchBillCode"
         --header 'Content-Type: application/json' \
         --header 'Authorization: Basic Og==' \
         --data '{
-        
             "customerMobileNo" : "63937XXXXX",
             "billerId": "NBPDCLXXXXXI01",
             "customerParamsRequest": {
-            
-                        "name": "Ca Number",
-                        "value": "115208XXXXX0"
+                       "tags" : [
+                          {
+                            "name": "Ca Number",
+                            "value": "115208XXXXX0"
+                           }
+                        ]
                     
             }
         }'

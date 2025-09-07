@@ -42,7 +42,7 @@ import data from "@site/src/static/bbps/FetchCategoryCode"
         --header 'Content-Type: application/json' \
         --header 'Authorization: Basic Og==' \
         --data '{
-            "tenantId" : "FE4X"
+           
         }'
 ```
 
