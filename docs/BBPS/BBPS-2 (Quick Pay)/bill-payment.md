@@ -113,7 +113,7 @@ import TabItem from '@theme/TabItem';
         "fundRespRemarks": "Successful",
         "fundStatus": "",
         "billStatus": "BILL_PAYMENT_SUCCESS",
-        "fundTxnAmt": 11,
+        "fundTxnAmt": 100,
         "fundTxnDate": "2025-08-04",
         "fundTxnReferenceId": "CC015244CBAA328XXXX",
         "fundTxnRemarks": "Successful",
@@ -134,11 +134,21 @@ import TabItem from '@theme/TabItem';
 
 ```json
     {
-        "code": "0x0202",
-        "status": "FAILURE",
-        "message": "No Record found",
-        "data": "Please use valid billerId"
+    "code": "0x0202",
+    "status": "FAILURE",
+    "message": "The client ref id has already been taken.",
+    "data": {
+        "clientRefId": [
+            "The client ref id has already been taken."
+        ],
+        "billId": [
+            "The bill id has already been taken."
+        ],
+        "customerInfo": [
+            "The customer info field is required."
+        ]
     }
+}
 ```
 
 </TabItem>

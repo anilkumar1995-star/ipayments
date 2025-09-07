@@ -69,6 +69,8 @@ import TabItem from '@theme/TabItem';
     values={[
         {label: 'SUCCESS', value: 'found'},
         {label: 'FAILED', value: 'failed'},
+        {label: 'PENDING', value: 'pending'},
+        
     ]}>
 
 <TabItem value="found">
@@ -83,6 +85,7 @@ import TabItem from '@theme/TabItem';
 ```
 
 </TabItem>
+
 
 <TabItem value="failed">
 
@@ -100,6 +103,22 @@ import TabItem from '@theme/TabItem';
             }
         }
     }
+```
+
+</TabItem>
+
+<TabItem value="pending">
+
+```json
+    {
+        "code": "0x0206",
+        "status": "PENDING",
+        "message": "Bill payment pending.",
+        "data": {
+                "status": "BILL_PAYMENT_INITIATED",
+                "txnId": "a66506da-1813-45c8-b611-8ba67d0388e6"
+        }
+}
 ```
 
 </TabItem>
