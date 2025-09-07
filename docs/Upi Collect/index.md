@@ -13,10 +13,9 @@ sidebar_position: 1
 <details open>
 <summary> Merchant Account</summary>
 
+
 | API                                                                    | Description                                                       |
 | :--------------------------------------------------------------------- | :---------------------------------------------------------------- |
-
-| <a href="/docs/v1/upicollect/account/list">**Account List**</a>  | Use this API to get the merchant account   |
 
 
 </details>
