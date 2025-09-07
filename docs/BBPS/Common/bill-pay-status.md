@@ -6,7 +6,7 @@ slug: /v1/service/bbps/bill/status
 sidebar_position: 3
 ---
 
-Bill Payment Status
+Bill Payment Status 
 
 :::tip Postman Collection
 
