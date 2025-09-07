@@ -1,6 +1,6 @@
 ---
 id: intro-ab
-title: Paycc Bank List 
+title: Paycc Banks List 
 description: IPAYMENT API Docs - Smart Payout, Smart Collect, UPI Stack, Validation Suite, Aeps, Dmt
 slug: /v1/service/paycc/banks
 sidebar_position: 16
@@ -12,7 +12,7 @@ sidebar_position: 16
 
 
 <details open>
-<summary> Paycc Bank  </summary>
+<summary> Paycc Banks  </summary>
 
 | API                                                                           | Description                                     |
 | :---------------------------------------------------------------------------- | :---------------------------------------------- |
