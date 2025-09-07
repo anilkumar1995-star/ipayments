@@ -40,7 +40,7 @@ import data from "@site/src/static/aadhar-banking/merchant-on-board-json/UpdateM
 ```c title="Example Request"
     curl --location --request GET '/v1/service/aeps/merchant/9651807986' \
         --header 'Content-Type: application/json' \
-        --header 'Authorization: Basic Og== ' \
+        --header 'Authorization: Basic Og==  ' \
         --data ''
 ```
 
