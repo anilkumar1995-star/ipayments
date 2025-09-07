@@ -63,13 +63,13 @@ import TabItem from '@theme/TabItem';
                 "label": "label",
                 "merchantCode": "MID73323XXXXX",
                 "clientRefId": "CRF233222XXXX",
-                "virtualAccountPrefix": null,
-                "virtualAccountId": null,
-                "virtualAccountNumber": "12345XXXX",
-                "virtualAccountIfsc": null,
-                "virtualPaymentAddress": "aniXXXX",
-                "upiQrcodeRemoteFileLocation": null,
-                "upiQrcodeScannerRemoteFileLocation": null,
+                "virtualAccountPrefix": "111222",
+                "virtualAccountId": "cva73ab2958d4d61b50e63d1b4xxxxxxx",
+                "virtualAccountNumber": "111222123123XXXXXX",
+                "virtualAccountIfsc": "YESBXXXSNOC",
+                "virtualPaymentAddress": "anixxxx@yesbank",
+                "upiQrcodeRemoteFileLocation": "https://s3.ap-south-1.amazonaws.com/xxxxx@yesbank.png",
+                "upiQrcodeScannerRemoteFileLocation": "https://s3.ap-south-1.amazonaws.com/xxxxx@yesbank.pdf",
                 "authorizedRemitters": [
                     {
                         "account_number": "XXXXXXXX2661",
@@ -82,7 +82,7 @@ import TabItem from '@theme/TabItem';
                     "rtgs": 300000
                 },
                 "description": "description",
-                "isActive": "pending",
+                "isActive": "active",
                 "kycFlow": "0"
             }
         ]
