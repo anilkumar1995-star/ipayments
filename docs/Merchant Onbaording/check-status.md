@@ -29,11 +29,9 @@ import header from "@site/src/common/HeaderCode"
 
 ## Body Params
 
-import '@site/src/css/bodyParam.css'
-import BodyParam from "@site/src/pages/BodyParam"
+
 import data from "@site/src/static/digio-kyc/StatusCheckCode"
 
-<BodyParam data={data}/>
 
 ### Request
 
