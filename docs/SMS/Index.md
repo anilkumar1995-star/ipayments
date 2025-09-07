@@ -53,7 +53,7 @@ import data from "@site/src/static/sms/sms.js"
                 {
                         "mobiles": "+917319xxxx",
                         "var1": "var1",
-                        "var2": 598xxx0
+                        "var2": "598990"
                 }
         ]
         
