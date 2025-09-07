@@ -36,15 +36,7 @@ const data = [
         "Required": "Required",
         "value":"Customer Info object parameter is customerMobile, customerEmail, customerAadhaar, customerPan"
     },
-     {
-        "Parameter": "customerAadhaar",
-        "DataType": "String",
-        "MaxLength": 50,
-        "Required": "Optional",
-        "value":"Customer Aadhaar Id"
-    },
- 
-    
+
     {
         "Parameter": "customerParams",
         "DataType": "object",

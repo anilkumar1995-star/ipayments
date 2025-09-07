@@ -76,7 +76,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value="found">
 
 ```json
-    {
+   {
         "code": "0x0200",
         "message": "Bill Payment Successfully",
         "status": "SUCCESS",
