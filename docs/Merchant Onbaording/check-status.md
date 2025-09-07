@@ -1,5 +1,5 @@
 ---
-id: id-mdigio-keyc-status
+id: id-mdigio-keyc-stat
 title: Merchant Kyc Status
 description: Merchant KYC Status
 slug: /v1/service/aeps/kyc/KID25090416XXXXXXXXXXXXXXXXXXXX
