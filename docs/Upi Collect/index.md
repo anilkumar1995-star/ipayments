@@ -2,7 +2,7 @@
 id: intro-ab
 title: UPI Collect
 description: IPAYMENT API Docs - Smart Payout,UPI Collect, Smart Collect, UPI Stack, Validation Suite
-slug: /v1/service/upicollect/generate/account
+slug: /v1/service/upicollect
 sidebar_position: 8
 ---
 
@@ -14,9 +14,10 @@ sidebar_position: 8
 <summary> Merchant Account</summary>
 
 
-| API                                                                    | Description                                                       |
-| :--------------------------------------------------------------------- | :---------------------------------------------------------------- |
-
+| API                                                                           | Description                                     |
+| :---------------------------------------------------------------------------- | :---------------------------------------------- |
+| <a href="/docs/v1/service/upicollect/generate/account">**Create Account**</a> | Use this API to create an account  |
+| <a href="/docs/v1/service/upicollect/account/list">**Get Account**</a> | Use this API to fetch accounts  |
 
 </details>
 

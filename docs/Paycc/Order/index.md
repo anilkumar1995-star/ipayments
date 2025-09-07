@@ -2,7 +2,7 @@
 id: intro-ab
 title: Paycc Order 
 description: IPAYMENT API Docs - Smart Payout, Smart Collect, UPI Stack, Validation Suite, Aeps, Dmt
-slug: /v1/service/paycc/add/verify/card
+slug: /v1/service/paycc/order
 ---
 
 <p>Paycc Order . </p>
