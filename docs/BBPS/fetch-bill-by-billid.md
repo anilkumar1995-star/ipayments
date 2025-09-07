@@ -3,7 +3,7 @@ id: id-fetch-bill-by-billid
 title: Fetch Bill by BillId
 description: Fetch Bill by BillId
 slug: /v1/service/bbps/fetch/bill-by-billid
-sidebar_position: 2
+sidebar_position: 5
 ---
 
 Fetch Bill by BillId

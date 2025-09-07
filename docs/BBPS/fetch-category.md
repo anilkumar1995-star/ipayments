@@ -3,7 +3,7 @@ id: id-fetchCategory
 title: Fetch Category
 description: Fetch Category
 slug: /v1/service/bbps/fetch/category
-sidebar_position: 5
+sidebar_position: 1
 ---
 
 Fetch Category

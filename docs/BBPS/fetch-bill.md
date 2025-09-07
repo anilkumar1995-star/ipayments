@@ -3,7 +3,7 @@ id: id-fetch-bill
 title: Fetch Bill
 description: Fetch Bill
 slug: /v1/service/bbps/fetch/bill
-sidebar_position: 1
+sidebar_position: 4
 ---
 
 Fetch Bill

@@ -3,7 +3,7 @@ id: id-fetch-biller
 title: Fetch Biller by Category
 description: Fetch Biller
 slug: /v1/service/bbps/fetch/biller/category
-sidebar_position: 4
+sidebar_position: 2
 ---
 
 Fetch Biller
