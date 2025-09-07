@@ -1,5 +1,5 @@
 ---
-id: id-fetch-bill
+id: id-fetch-bills
 title: Fetch Bill
 description: Fetch Bill
 slug: /v1/service/bbps/fetch/bill

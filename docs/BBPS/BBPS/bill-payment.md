@@ -1,5 +1,5 @@
 ---
-id: id-bill-payment
+id: id-bill-payments
 title: Bill Payment
 description: Bill Payment
 slug: /v1/service/bbps/bill/payment

@@ -1,5 +1,5 @@
 ---
-id: id-onboard-merchant
+id: id-onboard-merchantw
 title: Onboard Merchant
 description: Onboard Merchant
 slug: /v1/service/aeps/merchant-onboard

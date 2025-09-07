@@ -1,5 +1,5 @@
 ---
-id: id-add-account
+id: id-add-accounts
 title: Create Account
 description: Create Account
 slug: /v1/service/upicollect/generate/account

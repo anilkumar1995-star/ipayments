@@ -1,5 +1,5 @@
 ---
-id: id-merchant-onboarding
+id: id-merchant-onboardings
 title: Merchant Onboarding
 description: Merchant Onboarding and Kyc
 slug: /v1/service/aeps/kyc
