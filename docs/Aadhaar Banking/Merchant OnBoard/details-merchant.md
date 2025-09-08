@@ -1,5 +1,5 @@
 ---
-id: id-details-merchant
+id: id-details-merchantw
 title: Details Merchant
 description: Details Merchant
 slug: /v1/service/aeps/merchant
