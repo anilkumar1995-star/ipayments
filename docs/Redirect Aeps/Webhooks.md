@@ -1,5 +1,5 @@
 ---
-id: id-webhooks
+id: id-aepswebhooks
 title: Webhooks
 description: Webhooks
 slug: /v1/service/aeps/webhooks

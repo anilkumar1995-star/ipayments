@@ -1,5 +1,5 @@
 ---
-id: intro-ab
+id: intro-abs
 title: Aeps (Redirection)
 description: IPAYMENT API Docs - Smart Payout, Smart Collect, UPI Stack, Validation Suite, Aeps, Dmt
 slug: /v1/service/aeps/generate/url
