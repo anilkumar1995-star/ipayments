@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkipayment_doc=self.webpackChunkipayment_doc||[]).push([[5707],{5745:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}')}}]);
